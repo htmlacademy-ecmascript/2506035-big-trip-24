@@ -1,12 +1,12 @@
 import { createElement } from '../render.js';
 
-function createTripEventsListItemTemplate() {
+function createTripEventListItemTemplate() {
   return '<li class="trip-events__item"></li>';
 }
 
-export default class TripEventsListItemView {
+export default class TripEventListItemView {
   getTemplate() {
-    return createTripEventsListItemTemplate();
+    return createTripEventListItemTemplate();
   }
 
   getElement() {
